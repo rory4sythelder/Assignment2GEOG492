@@ -13,17 +13,27 @@
         #map1 { position:relative; height:300px; width:100%; }
         #map2 { position:relative; height:300px; width:100%; }
         #map3 { position:relative; height:300px; width:100%; }
+
+        .description {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
     </style>
 </head>
 
 <body>
     <h1> Cave Junction, OR: </h1>
+    <p class="description">Cave Junction is the only incorporated city and the largest population center in the Illinois Valley. It serves as a gateway to the nearby Oregon Caves National Monument.</p>
     <div id='map1'></div>
     <hr>
     <h1> O'Brien, OR </h1>
+    <p class="description">O'Brien is a small town nestled in the Illinois Valley, known for its picturesque rural setting and vibrant local community.</p>
     <div id='map2'></div>
     <hr>
     <h1> Selma, OR </h1>
+    <p class="description">Selma is a quaint town in southern Oregon, surrounded by dense forests and offering a peaceful living experience away from the hustle and bustle.</p>
     <div id='map3'></div>
 
     <script>
@@ -108,7 +118,6 @@
         map.getCanvas().style.cursor = 'auto';
         map2.getCanvas().style.cursor = 'auto';
         map3.getCanvas().style.cursor = 'auto';
-
     </script>
 </body>
 

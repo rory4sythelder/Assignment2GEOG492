@@ -74,10 +74,10 @@
 
             // 2.5.4 Add any other variables (such as markers) to the second map
              var popup2 = new mapboxgl.Popup()
-                .setText('This is my second point.');
+                .setText('This is O Brien, the hometown of Rory Forsythe-Elder.');
 
                 var marker2 = new mapboxgl.Marker({color:'blue'})
-            .setLngLat([-123.7032, 42.0672]) // starting position [lng, lat] 
+            .setLngLat([-123.7032, 42.0772]) // starting position [lng, lat] 
              .setPopup(popup2) //add the popup to the marker 
                 .addTo(map2); // id it to the map with the ID *map2*
 
@@ -97,6 +97,7 @@
                 style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
                 center: [-123.6161, 42.2793], // starting position [lng, lat] eg. [-122.6788, 45.5212]
                 zoom: 11 // starting zoom
+              });
 
             // 2.6 Change the map pointers
                 map.getCanvas().style.cursor = 'auto';
